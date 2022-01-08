@@ -13,14 +13,13 @@ pio.renderers.default = "browser" # this is required to plot in browser
 retail = pd.read_csv("retail_trade.csv", dtype = {'Year':object})
 retail
 
-
+# initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 year_options = retail['Year'].unique()
 category_options = retail['Category'].unique()
-
 
 app.layout = html.Div([
     html.Div([
