@@ -6,7 +6,8 @@ import pandas as pd
 import plotly.express as px
 
 # call the data
-retail = pd.read_csv("retail_trade.csv", dtype = {'Year':object})
+url = 'https://raw.githubusercontent.com/anthonyfleri/retail-trade-us/master/retail_trade.csv'
+retail = pd.read_csv(url, dtype = {'Year':object})
 retail
 
 # initialize the app
