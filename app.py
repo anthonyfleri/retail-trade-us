@@ -22,8 +22,6 @@ def generate_table(dataframe, max_rows=10):
     ])
 
 
-app = dash.Dash(__name__)
-
 app.layout = html.Div([
     html.H4(children='US Agriculture Exports (2011)'),
     generate_table(df)
