@@ -6,8 +6,9 @@ import pandas as pd
 import plotly.express as px
 
 # call the data
-retail = pd.read_csv('retail_trade.csv', dtype = {'Year':object})
+retail = pd.read_csv('https://raw.githubusercontent.com/anthonyfleri/retail-trade-us/master/retail_trade.csv', dtype = {'Year':object})
 retail
+
 
 # initialize the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
