@@ -1,63 +1,65 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly.graph_objs as go
+from dash.dependencies import Input, Output
 
-########### Define your variables
-beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
-ibu_values=[35, 60, 85, 75]
-abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='darkred'
-color2='orange'
-mytitle='Beer Comparison'
-tabtitle='beer!'
-myheading='Flying Dog Beers'
-label1='IBU'
-label2='ABV'
-githublink='https://github.com/austinlasseter/flying-dog-beers'
-sourceurl='https://www.flyingdog.com/beers/'
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.io as pio
 
-########### Set up the chart
-bitterness = go.Bar(
-    x=beers,
-    y=ibu_values,
-    name=label1,
-    marker={'color':color1}
-)
-alcohol = go.Bar(
-    x=beers,
-    y=abv_values,
-    name=label2,
-    marker={'color':color2}
-)
-
-beer_data = [bitterness, alcohol]
-beer_layout = go.Layout(
-    barmode='group',
-    title = mytitle
-)
-
-beer_fig = go.Figure(data=beer_data, layout=beer_layout)
+retail = pd.read_csv("retail_trade.csv", dtype = {'Year':object})
+retail
 
 
-########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
-app.title=tabtitle
 
-########### Set up the layout
-app.layout = html.Div(children=[
-    html.H1(myheading),
-    dcc.Graph(
-        id='flyingdog',
-        figure=beer_fig
-    ),
-    html.A('Code on Github', href=githublink),
-    html.Br(),
-    html.A('Data Source', href=sourceurl),
-    ]
-)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+year_options = retail['Year'].unique()
+category_options = retail['Category'].unique()
+
+
+app.layout = html.Div([
+    html.Div([
+        
+        html.H1('Retail Trade - US', style={'text-align':'left','font-family':'open sans light'}),
+    
+        html.Div([
+            dcc.Dropdown(
+                id='year-filter',
+                options=[{'label': i, 'value': i} for i in year_options],
+                value='2021')
+                ], style={'width': '48%', 'display': 'inline-block'}),
+
+        html.Div([
+            dcc.Dropdown(
+                id='category-filter',
+                options=[{'label': i, 'value': i} for i in category_options],
+                value='Clothing/Fashion')
+                ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
+            ]),
+    
+            dcc.Graph(id='retail-graphic')
+    
+])
+
+@app.callback(
+    Output('retail-graphic', 'figure'),
+    Input('year-filter', 'value'),
+    Input('category-filter','value'))
+def update_figure(selected_year,
+                  selected_category):
+    
+    filtered_df = retail[(retail['Year'] == selected_year)  & (retail['Category'] == selected_category)]
+    
+    fig = px.bar(filtered_df, x='Retail Type', y='Sales', 
+                 barmode='group', height = 500)
+
+    fig.update_layout(xaxis_tickangle=45, showlegend=False, xaxis={'categoryorder':'total descending'})
+    fig.update_xaxes(tickfont=dict(size=8))
+
+    return fig
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True, use_reloader=False)
