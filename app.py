@@ -9,7 +9,6 @@ server = app.server
 
 # call the data
 retail = pd.read_csv('https://raw.githubusercontent.com/anthonyfleri/retail-trade-us/master/retail_trade.csv', dtype = {'Year':object})
-retail
 
 # define and set the layout
 year_options = retail['Year'].unique()
