@@ -1,0 +1,256 @@
+﻿Retail Type,Sales,Year,Category
+Motor vehicle and parts dealers,1.28878E+12,2021,Auto
+Automobile and other motor vehicle dealers,1.19528E+12,2021,Auto
+Automobile dealers,1.09624E+12,2021,Auto
+New car dealers,9.4705E+11,2021,Auto
+Used car dealers,1.4919E+11,2021,Auto
+"Automotive parts, acc., and tire stores",93501000000,2021,Auto
+"Furniture, home furn, electronics, and appliance stores",1.95062E+11,2021,Home/Furniture
+Furniture and home furnishings stores,1.19324E+11,2021,Home/Furniture
+Furniture stores,66116000000,2021,Home/Furniture
+Electronics and appliance stores,75738000000,2021,Electronics
+Household appliance stores,17885000000,2021,Electronics
+Electronics stores,57853000000,2021,Electronics
+Building mat. and garden equip. and supplies dealers,4.04541E+11,2021,Home/Garden/Hardware
+Building mat. and supplies dealers,3.51626E+11,2021,Home/Garden/Hardware
+Paint and wallpaper stores,11974000000,2021,Home/Garden/Hardware
+Hardware stores,28651000000,2021,Home/Garden/Hardware
+Food and beverage stores,7.39307E+11,2021,Food/Beverage
+Grocery stores,6.60505E+11,2021,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,6.29764E+11,2021,Food/Beverage
+"Beer, wine, and liquor stores",57072000000,2021,Food/Beverage
+Health and personal care stores,3.13469E+11,2021,Health/Drugs/Pharmacy
+Pharmacies and drug stores,2.66499E+11,2021,Health/Drugs/Pharmacy
+Gasoline stations,4.83117E+11,2021,Auto
+Clothing and clothing access. stores,2.31751E+11,2021,Clothing/Fashion
+Clothing stores,1.5664E+11,2021,Clothing/Fashion
+Family clothing stores,91108000000,2021,Clothing/Fashion
+Other clothing stores,14787000000,2021,Clothing/Fashion
+Shoe stores,31624000000,2021,Clothing/Fashion
+Jewelry stores,32252000000,2021,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",87260000000,2021,Sporting/Outdoors/Games
+Sporting goods stores,53743000000,2021,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",18007000000,2021,Sporting/Outdoors/Games
+Book stores,7122000000,2021,Department/Merchandise
+General merchandise stores,6.63092E+11,2021,Department/Merchandise
+Department stores,1.06281E+11,2021,Department/Merchandise
+Department stores(excl. discount department stores),24883000000,2021,Department/Merchandise
+Discount dept. stores,81398000000,2021,Department/Merchandise
+Other general merchandise stores,5.56811E+11,2021,Department/Merchandise
+Warehouse clubs and superstores,4.7999E+11,2021,Department/Merchandise
+All other gen. merchandise stores,76821000000,2021,Department/Merchandise
+Miscellaneous store retailers,1.36506E+11,2021,Department/Merchandise
+"Office supplies, stationery, and gift stores",23117000000,2021,Office
+Office supplies and stationery stores,8486000000,2021,Office
+"Gift, novelty, and souvenir stores",14631000000,2021,Department/Merchandise
+Used merchandise stores,16428000000,2021,Department/Merchandise
+Nonstore retailers,8.31758E+11,2021,Other
+Electronic shopping and mail-order houses,7.46665E+11,2021,Other
+Fuel dealers,28617000000,2021,Auto
+Food services and drinking places,6.776E+11,2021,Food Services
+Restaurants and other eating places,6.16517E+11,2021,Food Services
+Limited service eating places,3.2358E+11,2021,Food Services
+Motor vehicle and parts dealers,1.24432E+12,2020,Auto
+Automobile and other motor vehicle dealers,1.14602E+12,2020,Auto
+Automobile dealers,1.05591E+12,2020,Auto
+New car dealers,9.31212E+11,2020,Auto
+Used car dealers,1.247E+11,2020,Auto
+"Automotive parts, acc., and tire stores",98294000000,2020,Auto
+"Furniture, home furn, electronics, and appliance stores",1.92243E+11,2020,Home/Furniture
+Furniture and home furnishings stores,1.15563E+11,2020,Home/Furniture
+Furniture stores,62943000000,2020,Home/Furniture
+Electronics and appliance stores,76680000000,2020,Electronics
+Household appliance stores,18330000000,2020,Electronics
+Electronics stores,58350000000,2020,Electronics
+Building mat. and garden equip. and supplies dealers,4.25577E+11,2020,Home/Garden/Hardware
+Building mat. and supplies dealers,3.71027E+11,2020,Home/Garden/Hardware
+Paint and wallpaper stores,13089000000,2020,Home/Garden/Hardware
+Hardware stores,32859000000,2020,Home/Garden/Hardware
+Food and beverage stores,8.65095E+11,2020,Food/Beverage
+Grocery stores,7.73741E+11,2020,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,7.41574E+11,2020,Food/Beverage
+"Beer, wine, and liquor stores",66852000000,2020,Food/Beverage
+Health and personal care stores,3.48713E+11,2020,Health/Drugs/Pharmacy
+Pharmacies and drug stores,3.00855E+11,2020,Health/Drugs/Pharmacy
+Gasoline stations,4.30116E+11,2020,Auto
+Clothing and clothing access. stores,2.04196E+11,2020,Clothing/Fashion
+Clothing stores,1.38759E+11,2020,Clothing/Fashion
+Family clothing stores,81464000000,2020,Clothing/Fashion
+Other clothing stores,12771000000,2020,Clothing/Fashion
+Shoe stores,28618000000,2020,Clothing/Fashion
+Jewelry stores,33296000000,2020,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",86380000000,2020,Sporting/Outdoors/Games
+Sporting goods stores,53911000000,2020,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",17338000000,2020,Sporting/Outdoors/Games
+Book stores,6499000000,2020,Department/Merchandise
+General merchandise stores,7.39679E+11,2020,Department/Merchandise
+Department stores,1.13497E+11,2020,Department/Merchandise
+Department stores(excl. discount department stores),21386000000,2020,Department/Merchandise
+Discount dept. stores,92111000000,2020,Department/Merchandise
+Other general merchandise stores,6.26182E+11,2020,Department/Merchandise
+Warehouse clubs and superstores,5.35772E+11,2020,Department/Merchandise
+All other gen. merchandise stores,90410000000,2020,Department/Merchandise
+Miscellaneous store retailers,1.32716E+11,2020,Department/Merchandise
+"Office supplies, stationery, and gift stores",22772000000,2020,Office
+Office supplies and stationery stores,10117000000,2020,Office
+"Gift, novelty, and souvenir stores",12655000000,2020,Department/Merchandise
+Used merchandise stores,15385000000,2020,Department/Merchandise
+Nonstore retailers,9.24559E+11,2020,Other
+Electronic shopping and mail-order houses,8.36722E+11,2020,Other
+Fuel dealers,29874000000,2020,Auto
+Food services and drinking places,6.21483E+11,2020,Food Services
+Restaurants and other eating places,5.68965E+11,2020,Food Services
+Limited service eating places,3.28431E+11,2020,Food Services
+Motor vehicle and parts dealers,1.23977E+12,2019,Auto
+Automobile and other motor vehicle dealers,1.14283E+12,2019,Auto
+Automobile dealers,1.06668E+12,2019,Auto
+New car dealers,9.44324E+11,2019,Auto
+Used car dealers,1.2236E+11,2019,Auto
+"Automotive parts, acc., and tire stores",96940000000,2019,Auto
+"Furniture, home furn, electronics, and appliance stores",2.11053E+11,2019,Home/Furniture
+Furniture and home furnishings stores,1.20517E+11,2019,Home/Furniture
+Furniture stores,64208000000,2019,Home/Furniture
+Electronics and appliance stores,90536000000,2019,Electronics
+Household appliance stores,16567000000,2019,Electronics
+Electronics stores,73969000000,2019,Electronics
+Building mat. and garden equip. and supplies dealers,3.72432E+11,2019,Home/Garden/Hardware
+Building mat. and supplies dealers,3.26473E+11,2019,Home/Garden/Hardware
+Paint and wallpaper stores,12734000000,2019,Home/Garden/Hardware
+Hardware stores,28837000000,2019,Home/Garden/Hardware
+Food and beverage stores,7.73647E+11,2019,Food/Beverage
+Grocery stores,6.93015E+11,2019,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,6.60216E+11,2019,Food/Beverage
+"Beer, wine, and liquor stores",56805000000,2019,Food/Beverage
+Health and personal care stores,3.42569E+11,2019,Health/Drugs/Pharmacy
+Pharmacies and drug stores,2.83615E+11,2019,Health/Drugs/Pharmacy
+Gasoline stations,5.12377E+11,2019,Auto
+Clothing and clothing access. stores,2.68735E+11,2019,Clothing/Fashion
+Clothing stores,1.9585E+11,2019,Clothing/Fashion
+Family clothing stores,1.12191E+11,2019,Clothing/Fashion
+Other clothing stores,17378000000,2019,Clothing/Fashion
+Shoe stores,36627000000,2019,Clothing/Fashion
+Jewelry stores,32640000000,2019,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",80757000000,2019,Sporting/Outdoors/Games
+Sporting goods stores,45621000000,2019,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",16524000000,2019,Sporting/Outdoors/Games
+Book stores,9126000000,2019,Department/Merchandise
+General merchandise stores,7.16476E+11,2019,Department/Merchandise
+Department stores,1.34659E+11,2019,Department/Merchandise
+Department stores(excl. discount department stores),39548000000,2019,Department/Merchandise
+Discount dept. stores,95111000000,2019,Department/Merchandise
+Other general merchandise stores,5.81817E+11,2019,Department/Merchandise
+Warehouse clubs and superstores,5.01337E+11,2019,Department/Merchandise
+All other gen. merchandise stores,80480000000,2019,Department/Merchandise
+Miscellaneous store retailers,1.3156E+11,2019,Department/Merchandise
+"Office supplies, stationery, and gift stores",28922000000,2019,Office
+Office supplies and stationery stores,10719000000,2019,Office
+"Gift, novelty, and souvenir stores",18203000000,2019,Department/Merchandise
+Used merchandise stores,18300000000,2019,Department/Merchandise
+Nonstore retailers,7.61664E+11,2019,Other
+Electronic shopping and mail-order houses,6.67867E+11,2019,Other
+Fuel dealers,34970000000,2019,Auto
+Food services and drinking places,7.73545E+11,2019,Food Services
+Restaurants and other eating places,6.75798E+11,2019,Food Services
+Limited service eating places,3.41485E+11,2019,Food Services
+Motor vehicle and parts dealers,1.2048E+12,2018,Auto
+Automobile and other motor vehicle dealers,1.10981E+12,2018,Auto
+Automobile dealers,1.03547E+12,2018,Auto
+New car dealers,9.18128E+11,2018,Auto
+Used car dealers,1.17343E+11,2018,Auto
+"Automotive parts, acc., and tire stores",94998000000,2018,Auto
+"Furniture, home furn, electronics, and appliance stores",2.13096E+11,2018,Home/Furniture
+Furniture and home furnishings stores,1.19094E+11,2018,Home/Furniture
+Furniture stores,63279000000,2018,Home/Furniture
+Electronics and appliance stores,94002000000,2018,Electronics
+Household appliance stores,16790000000,2018,Electronics
+Electronics stores,77212000000,2018,Electronics
+Building mat. and garden equip. and supplies dealers,3.66225E+11,2018,Home/Garden/Hardware
+Building mat. and supplies dealers,3.21264E+11,2018,Home/Garden/Hardware
+Paint and wallpaper stores,12245000000,2018,Home/Garden/Hardware
+Hardware stores,27467000000,2018,Home/Garden/Hardware
+Food and beverage stores,7.5E+11,2018,Food/Beverage
+Grocery stores,6.7133E+11,2018,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,6.40235E+11,2018,Food/Beverage
+"Beer, wine, and liquor stores",55088000000,2018,Food/Beverage
+Health and personal care stores,3.37765E+11,2018,Health/Drugs/Pharmacy
+Pharmacies and drug stores,2.80082E+11,2018,Health/Drugs/Pharmacy
+Gasoline stations,5.21453E+11,2018,Auto
+Clothing and clothing access. stores,2.66881E+11,2018,Clothing/Fashion
+Clothing stores,1.94353E+11,2018,Clothing/Fashion
+Family clothing stores,1.092E+11,2018,Clothing/Fashion
+Other clothing stores,17902000000,2018,Clothing/Fashion
+Shoe stores,37253000000,2018,Clothing/Fashion
+Jewelry stores,32083000000,2018,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",81129000000,2018,Sporting/Outdoors/Games
+Sporting goods stores,44755000000,2018,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",16889000000,2018,Sporting/Outdoors/Games
+Book stores,9758000000,2018,Department/Merchandise
+General merchandise stores,7.07094E+11,2018,Department/Merchandise
+Department stores,1.42083E+11,2018,Department/Merchandise
+Department stores(excl. discount department stores),44571000000,2018,Department/Merchandise
+Discount dept. stores,97512000000,2018,Department/Merchandise
+Other general merchandise stores,5.65011E+11,2018,Department/Merchandise
+Warehouse clubs and superstores,4.86683E+11,2018,Department/Merchandise
+All other gen. merchandise stores,78328000000,2018,Department/Merchandise
+Miscellaneous store retailers,1.28408E+11,2018,Department/Merchandise
+"Office supplies, stationery, and gift stores",30324000000,2018,Office
+Office supplies and stationery stores,11363000000,2018,Office
+"Gift, novelty, and souvenir stores",18961000000,2018,Department/Merchandise
+Used merchandise stores,17175000000,2018,Department/Merchandise
+Nonstore retailers,6.76183E+11,2018,Other
+Electronic shopping and mail-order houses,5.84267E+11,2018,Other
+Fuel dealers,36530000000,2018,Auto
+Food services and drinking places,7.32038E+11,2018,Food Services
+Restaurants and other eating places,6.39149E+11,2018,Food Services
+Limited service eating places,3.21275E+11,2018,Food Services
+Motor vehicle and parts dealers,1.1857E+12,2017,Auto
+Automobile and other motor vehicle dealers,1.09225E+12,2017,Auto
+Automobile dealers,1.02059E+12,2017,Auto
+New car dealers,9.06487E+11,2017,Auto
+Used car dealers,1.141E+11,2017,Auto
+"Automotive parts, acc., and tire stores",93443000000,2017,Auto
+"Furniture, home furn, electronics, and appliance stores",2.07733E+11,2017,Home/Furniture
+Furniture and home furnishings stores,1.15309E+11,2017,Home/Furniture
+Furniture stores,61288000000,2017,Home/Furniture
+Electronics and appliance stores,92424000000,2017,Electronics
+Household appliance stores,16806000000,2017,Electronics
+Electronics stores,75618000000,2017,Electronics
+Building mat. and garden equip. and supplies dealers,3.49365E+11,2017,Home/Garden/Hardware
+Building mat. and supplies dealers,3.05471E+11,2017,Home/Garden/Hardware
+Paint and wallpaper stores,11536000000,2017,Home/Garden/Hardware
+Hardware stores,25891000000,2017,Home/Garden/Hardware
+Food and beverage stores,7.28843E+11,2017,Food/Beverage
+Grocery stores,6.53178E+11,2017,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,6.24972E+11,2017,Food/Beverage
+"Beer, wine, and liquor stores",52622000000,2017,Food/Beverage
+Health and personal care stores,3.23866E+11,2017,Health/Drugs/Pharmacy
+Pharmacies and drug stores,2.69054E+11,2017,Health/Drugs/Pharmacy
+Gasoline stations,4.76152E+11,2017,Auto
+Clothing and clothing access. stores,2.61396E+11,2017,Clothing/Fashion
+Clothing stores,1.91108E+11,2017,Clothing/Fashion
+Family clothing stores,1.05212E+11,2017,Clothing/Fashion
+Other clothing stores,17822000000,2017,Clothing/Fashion
+Shoe stores,36332000000,2017,Clothing/Fashion
+Jewelry stores,30988000000,2017,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",83896000000,2017,Sporting/Outdoors/Games
+Sporting goods stores,45965000000,2017,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",18147000000,2017,Sporting/Outdoors/Games
+Book stores,10329000000,2017,Department/Merchandise
+General merchandise stores,6.91891E+11,2017,Department/Merchandise
+Department stores,1.46654E+11,2017,Department/Merchandise
+Department stores(excl. discount department stores),48435000000,2017,Department/Merchandise
+Discount dept. stores,98219000000,2017,Department/Merchandise
+Other general merchandise stores,5.45237E+11,2017,Department/Merchandise
+Warehouse clubs and superstores,4.7018E+11,2017,Department/Merchandise
+All other gen. merchandise stores,75057000000,2017,Department/Merchandise
+Miscellaneous store retailers,1.23182E+11,2017,Department/Merchandise
+"Office supplies, stationery, and gift stores",30061000000,2017,Office
+Office supplies and stationery stores,12261000000,2017,Office
+"Gift, novelty, and souvenir stores",17800000000,2017,Department/Merchandise
+Used merchandise stores,16739000000,2017,Department/Merchandise
+Nonstore retailers,6.08194E+11,2017,Other
+Electronic shopping and mail-order houses,5.24639E+11,2017,Other
+Fuel dealers,31433000000,2017,Auto
+Food services and drinking places,6.92649E+11,2017,Food Services
+Restaurants and other eating places,6.04128E+11,2017,Food Services
+Limited service eating places,3.02361E+11,2017,Food Services
