@@ -27,7 +27,6 @@ click==8.0.1
 cloudpickle==2.0.0
 colorama==0.4.4
 colorlover==0.3.0
-conda==4.11.0
 conda-package-handling==1.7.3
 cookiecutter==1.7.2
 cryptography==3.4.7
