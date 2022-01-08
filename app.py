@@ -7,8 +7,11 @@ import pandas as pd
 app = dash.Dash(__name__)
 server = app.server
 
-df = pd.read_csv('retail_trade.csv')
+d = {'class':['c1','c2','c1','c1','c2','c1','c1','c2','c3','c3'],
+     'val': [1,2,1,1,2,1,1,2,3,3]
+    }
 
+df = pd.DataFrame(d)
 
 def generate_table(dataframe, max_rows=10):
     return html.Table([
