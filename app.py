@@ -6,14 +6,12 @@ import pandas as pd
 import plotly.express as px
 
 # initialize the app
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 server = app.server
 
 
 # call the data
 retail = pd.read_csv('https://raw.githubusercontent.com/anthonyfleri/retail-trade-us/master/retail_trade.csv', dtype = {'Year':object})
-retail
 
 
 # define and set the layout
@@ -41,7 +39,6 @@ app.layout = html.Div([
             ]),
     
             dcc.Graph(id='retail-graphic')
-    
 ])
 
 @app.callback(
