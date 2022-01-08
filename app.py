@@ -8,6 +8,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.io as pio
 
+pio.renderers.default = "browser" # this is required to plot in browser
+
 retail = pd.read_csv("retail_trade.csv", dtype = {'Year':object})
 retail
 
