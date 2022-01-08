@@ -2,62 +2,88 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import pandas as pd
 import plotly.express as px
 
+import pandas as pd
 
-# initialize the app
 app = dash.Dash(__name__)
 server = app.server
 
-# call the data
-retail = pd.read_csv('https://raw.githubusercontent.com/anthonyfleri/retail-trade-us/master/retail_trade.csv', dtype = {'Year':object})
+df = pd.read_csv('https://plotly.github.io/datasets/country_indicators.csv')
 
-
-# define and set the layout
-year_options = retail['Year'].unique()
-category_options = retail['Category'].unique()
+available_indicators = df['Indicator Name'].unique()
 
 app.layout = html.Div([
     html.Div([
-        
-        html.H1('Retail Trade - US', style={'text-align':'left','font-family':'open sans light'}),
-    
-        html.Div([
-            dcc.Dropdown(
-                id='year-filter',
-                options=[{'label': i, 'value': i} for i in year_options],
-                value='2021')
-                ], style={'width': '48%', 'display': 'inline-block'}),
 
         html.Div([
             dcc.Dropdown(
-                id='category-filter',
-                options=[{'label': i, 'value': i} for i in category_options],
-                value='Clothing/Fashion')
-                ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
-            ]),
-    
-            dcc.Graph(id='retail-graphic')
-    
+                id='xaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators],
+                value='Fertility rate, total (births per woman)'
+            ),
+            dcc.RadioItems(
+                id='xaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '48%', 'display': 'inline-block'}),
+
+        html.Div([
+            dcc.Dropdown(
+                id='yaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators],
+                value='Life expectancy at birth, total (years)'
+            ),
+            dcc.RadioItems(
+                id='yaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
+    ]),
+
+    dcc.Graph(id='indicator-graphic'),
+
+    dcc.Slider(
+        id='year--slider',
+        min=df['Year'].min(),
+        max=df['Year'].max(),
+        value=df['Year'].max(),
+        marks={str(year): str(year) for year in df['Year'].unique()},
+        step=None
+    )
 ])
 
-@app.callback(
-    Output('retail-graphic', 'figure'),
-    Input('year-filter', 'value'),
-    Input('category-filter','value'))
-def update_figure(selected_year,
-                  selected_category):
-    
-    filtered_df = retail[(retail['Year'] == selected_year)  & (retail['Category'] == selected_category)]
-    
-    fig = px.bar(filtered_df, x='Retail Type', y='Sales', 
-                 barmode='group', height = 500)
 
-    fig.update_layout(xaxis_tickangle=45, showlegend=False, xaxis={'categoryorder':'total descending'})
-    fig.update_xaxes(tickfont=dict(size=8))
+@app.callback(
+    Output('indicator-graphic', 'figure'),
+    Input('xaxis-column', 'value'),
+    Input('yaxis-column', 'value'),
+    Input('xaxis-type', 'value'),
+    Input('yaxis-type', 'value'),
+    Input('year--slider', 'value'))
+def update_graph(xaxis_column_name, yaxis_column_name,
+                 xaxis_type, yaxis_type,
+                 year_value):
+    dff = df[df['Year'] == year_value]
+
+    fig = px.scatter(x=dff[dff['Indicator Name'] == xaxis_column_name]['Value'],
+                     y=dff[dff['Indicator Name'] == yaxis_column_name]['Value'],
+                     hover_name=dff[dff['Indicator Name'] == yaxis_column_name]['Country Name'])
+
+    fig.update_layout(margin={'l': 40, 'b': 40, 't': 10, 'r': 0}, hovermode='closest')
+
+    fig.update_xaxes(title=xaxis_column_name,
+                     type='linear' if xaxis_type == 'Linear' else 'log')
+
+    fig.update_yaxes(title=yaxis_column_name,
+                     type='linear' if yaxis_type == 'Linear' else 'log')
 
     return fig
 
+
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server(debug=True)
