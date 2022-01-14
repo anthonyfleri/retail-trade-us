@@ -1,55 +1,55 @@
 ﻿Retail Type,Sales,Year,Category
-Motor vehicle and parts dealers,1562687045525,2021,Auto
-Automobile and other motor vehicle dealers,1449330377000,2021,Auto
-Automobile dealers,1329037831000,2021,Auto
-New car dealers,1147976556250,2021,Auto
-Used car dealers,181061274750,2021,Auto
-"Automotive parts, acc., and tire stores",113356668525,2021,Auto
-"Furniture, home furn, electronics, and appliance stores",236309413550,2021,Electronics/Home/Furniture
-Furniture and home furnishings stores,144573352100,2021,Electronics/Home/Furniture
-Furniture stores,80088893900,2021,Electronics/Home/Furniture
-Electronics and appliance stores,91736061450,2021,Electronics/Home/Furniture
-Household appliance stores,21666777125,2021,Electronics/Home/Furniture
-Electronics stores,70069284325,2021,Electronics/Home/Furniture
-Building mat. and garden equip. and supplies dealers,490675629525,2021,Home/Garden/Hardware
-Building mat. and supplies dealers,426494121650,2021,Home/Garden/Hardware
-Paint and wallpaper stores,14523638350,2021,Home/Garden/Hardware
-Hardware stores,34736627275,2021,Home/Garden/Hardware
-Food and beverage stores,895181099675,2021,Food/Beverage
-Grocery stores,799690692625,2021,Food/Beverage
-Supermarkets and other grocery (except convenience) stores,762438663100,2021,Food/Beverage
-"Beer, wine, and liquor stores",69152203800,2021,Food/Beverage
-Health and personal care stores,379655040725,2021,Health/Drugs/Pharmacy
-Pharmacies and drug stores,322732841475,2021,Health/Drugs/Pharmacy
-Gasoline stations,585990464925,2021,Auto
-Clothing and clothing access. stores,281321064775,2021,Clothing/Fashion
-Clothing stores,190151716000,2021,Clothing/Fashion
-Family clothing stores,110625330700,2021,Clothing/Fashion
-Other clothing stores,17930976675,2021,Clothing/Fashion
-Shoe stores,38381329600,2021,Clothing/Fashion
-Jewelry stores,37876716682,2021,Luxury
-"Sporting goods, hobby, musical instrument, and book stores",105767436500,2021,Sporting/Outdoors/Games
-Sporting goods stores,65185796575,2021,Sporting/Outdoors/Games
-"Hobby, toy, and game stores",21814167175,2021,Sporting/Outdoors/Games
-Book stores,8610040050,2021,Merchandise
-General merchandise stores,803389394300,2021,Merchandise
-Department stores,128897423025,2021,Department
-Department stores(excl. discount department stores),30249100075,2021,Department
-Discount dept. stores,98648322950,2021,Department
-Other general merchandise stores,674491971275,2021,Merchandise
-Warehouse clubs and superstores,581400149750,2021,Department
-All other gen. merchandise stores,93091821525,2021,Merchandise
-Miscellaneous store retailers,165503863650,2021,Merchandise
-"Office supplies, stationery, and gift stores",28042054925,2021,Office
-Office supplies and stationery stores,10268693150,2021,Office
-"Gift, novelty, and souvenir stores",17773361775,2021,Merchandise
-Used merchandise stores,19913573700,2021,Merchandise
-Nonstore retailers,1007336226950,2021,Other
-Electronic shopping and mail-order houses,904364481625,2021,Other
-Fuel dealers,34509997425,2021,Auto
-Food services and drinking places,821827055000,2021,Food Services
-Restaurants and other eating places,747635359925,2021,Food Services
-Limited service eating places,392111284500,2021,Food Services
+Motor vehicle and parts dealers,1534486100000,2021,Auto
+Automobile and other motor vehicle dealers,1421860360000,2021,Auto
+Automobile dealers,1305594940000,2021,Auto
+New car dealers,1126560280000,2021,Auto
+Used car dealers,179034660000,2021,Auto
+"Automotive parts, acc., and tire stores",112625740000,2021,Auto
+"Furniture, home furn, electronics, and appliance stores",239202540000,2021,Electronics/Home/Furniture
+Furniture and home furnishings stores,145578900000,2021,Electronics/Home/Furniture
+Furniture stores,79859020000,2021,Electronics/Home/Furniture
+Electronics and appliance stores,93623640000,2021,Electronics/Home/Furniture
+Household appliance stores,21617140000,2021,Electronics/Home/Furniture
+Electronics stores,72006500000,2021,Electronics/Home/Furniture
+Building mat. and garden equip. and supplies dealers,484875280000,2021,Home/Garden/Hardware
+Building mat. and supplies dealers,422499760000,2021,Home/Garden/Hardware
+Paint and wallpaper stores,14302560000,2021,Home/Garden/Hardware
+Hardware stores,34405220000,2021,Home/Garden/Hardware
+Food and beverage stores,895046800000,2021,Food/Beverage
+Grocery stores,799307620000,2021,Food/Beverage
+Supermarkets and other grocery (except convenience) stores,762208080000,2021,Food/Beverage
+"Beer, wine, and liquor stores",69161060000,2021,Food/Beverage
+Health and personal care stores,377753400000,2021,Health/Drugs/Pharmacy
+Pharmacies and drug stores,320827060000,2021,Health/Drugs/Pharmacy
+Gasoline stations,590426180000,2021,Auto
+Clothing and clothing access. stores,287933900000,2021,Clothing/Fashion
+Clothing stores,195186080000,2021,Clothing/Fashion
+Family clothing stores,113978160000,2021,Clothing/Fashion
+Other clothing stores,18005860000,2021,Clothing/Fashion
+Shoe stores,38067200000,2021,Clothing/Fashion
+Jewelry stores,37791967121,2021,Luxury
+"Sporting goods, hobby, musical instrument, and book stores",107098080000,2021,Sporting/Outdoors/Games
+Sporting goods stores,64897620000,2021,Sporting/Outdoors/Games
+"Hobby, toy, and game stores",23264400000,2021,Sporting/Outdoors/Games
+Book stores,8608260000,2021,Merchandise
+General merchandise stores,812457580000,2021,Merchandise
+Department stores,132762100000,2021,Department
+Department stores(excl. discount department stores),32579800000,2021,Department
+Discount dept. stores,100182300000,2021,Department
+Other general merchandise stores,679695480000,2021,Merchandise
+Warehouse clubs and superstores,585950660000,2021,Department
+All other gen. merchandise stores,93744820000,2021,Merchandise
+Miscellaneous store retailers,167152100000,2021,Merchandise
+"Office supplies, stationery, and gift stores",28124960000,2021,Office
+Office supplies and stationery stores,10037380000,2021,Office
+"Gift, novelty, and souvenir stores",18087580000,2021,Merchandise
+Used merchandise stores,20263320000,2021,Merchandise
+Nonstore retailers,1028240640000,2021,Other
+Electronic shopping and mail-order houses,924461880000,2021,Other
+Fuel dealers,35568440000,2021,Auto
+Food services and drinking places,820810060000,2021,Food Services
+Restaurants and other eating places,744298020000,2021,Food Services
+Limited service eating places,389232680000,2021,Food Services
 Motor vehicle and parts dealers,1240000000000,2020,Auto
 Automobile and other motor vehicle dealers,1150000000000,2020,Auto
 Automobile dealers,1060000000000,2020,Auto
